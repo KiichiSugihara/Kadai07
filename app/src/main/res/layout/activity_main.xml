@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:textSize="48sp"
             android:layout_weight="1"
+            android:textColor="#F44336"
              />
 
         <TextView
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:textSize="48sp"
             android:layout_weight="1"
+            android:textColor="#FF9800"
              />
         <TextView
             android:id="@+id/view_message3"
@@ -32,6 +34,7 @@
             android:layout_height="wrap_content"
             android:textSize="48sp"
             android:layout_weight="1"
+            android:textColor="#0929DC"
             />
     </LinearLayout>
 
@@ -48,9 +51,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/colorPrimaryDark"
+            android:background="#F44336"
             android:onClick="stopNumber1"
-            android:text="@string/button1" />
+            android:text="@string/button1"
+            android:textColor="#ffffff" />
 
         <Button
             android:id="@+id/button2"
@@ -58,9 +62,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#0929DC"
+            android:background="#FF9800"
             android:onClick="stopNumber2"
-            android:text="@string/button2" />
+            android:text="@string/button2"
+            android:textColor="#ffffff" />
         <Button
             android:id="@+id/button3"
             style="?android:attr/buttonBarButtonStyle"
@@ -68,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#0929DC"
+            android:textColor="#ffffff"
             android:onClick="stopNumber3"
             android:text="@string/button3" />
     </LinearLayout>
